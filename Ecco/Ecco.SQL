@@ -25,5 +25,5 @@ CREATE TABLE Pagamento(
    pagtipo VARCHAR(10) NOT NULL,
    datacompra DATETIME DEFAULT CURRENT_DATE,
    id_simulacao INT,
-   FOREIGN KEY(id_simulacao)  REFERENCES simulacao(idsimulacao) ON DELETE CASCADE
+   FOREIGN KEY(id_simulacao)  REFERENCES simulacao(idsimulacao)
    );
